@@ -98,13 +98,10 @@ function try1() {
     for (var i = 4; i > 0; i--) {
         userin = prompt('Guess a Number between 10 and 16 : ' + i);
         userin = Number(userin);
-        while (!(Number.isInteger(userin)) || userin == "") {
-            userin = prompt('Guess a Number between 10 and 16 : ' + i);
-            userin = Number(userin);
-        }
+
         if (userin == correctNumber) {
-            count++;
-            correctAnswers++;
+            score++;
+           
 
             alert("gzzz it's right");
             break;
@@ -118,7 +115,7 @@ function try1() {
 }
 try1();
 
-alert('you scored', score);
+alert(score);
 
 
 
