@@ -1,28 +1,43 @@
 td, th{
-    border: 2px solid black;
+    border: 4px solid black;
   
   }
   
   table{
     border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 130%;
+    color:white;
   }
   hw {
     font-size: 400%;
-    color: rgb(6, 26, 42);
+    color:white;;
+    
 }
 
+
 body {
-    background-color: rgb(166, 181, 223);
+    text-align-last: center;
+    font-size: 150%;
+    background-image: url('https://images.photowall.com/products/58243/galaxy-1.jpg?h=699&q=85');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-shadow: 3px 3px #1f003b;
 }
 li {
-    color: rgb(49, 49, 92);
+    color:white;
     margin: 2px;
-    font-size: large;
+    font-size: 120%;
 }
 .space {
     height: 100px;
     width: 500px;
 }
 h2 {
-    font-size: 150%
+    font-size: 150%;
+   
+    color:white;
+    margin-top: 0%;
+    
 }
